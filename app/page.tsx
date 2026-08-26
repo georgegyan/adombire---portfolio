@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/navbar";
+import Hero from "@/components/sections/hero";
 
 export default function Home() {
   return (
@@ -6,12 +7,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <section className="container-custom py-32">
-          <h1 className="text-5xl font-bold">
-            Building software, exploring AI,
-            and sharing the journey.
-          </h1>
-        </section>
+        <Hero />
       </main>
     </>
   );
