@@ -3,12 +3,12 @@
 import Link from "next/link";
 
 const links = [
-  { name: "About", href: "#about" },
-  { name: "Journey", href: "#journey" },
-  { name: "Projects", href: "#projects" },
-  { name: "Skills", href: "#skills" },
-  { name: "Content", href: "#content" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/about" },
+  { name: "Journey", href: "/journey" },
+  { name: "Projects", href: "/projects" },
+  { name: "Skills", href: "/skills" },
+  { name: "Content", href: "/content" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
